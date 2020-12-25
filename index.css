@@ -1,0 +1,114 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    /* padding:0px; */
+    flex-direction: row-reverse;
+    /* margin:0px; */
+    /* justify-content:; */
+  
+}
+.nav img{
+    border-radius: 50%;
+    cursor:pointer
+}
+a{
+    text-decoration: none;
+    padding-top: 4px;
+    color: rgba(0, 0, 0, 0.87);
+}
+a:hover,a:focus{
+    opacity: 0.85;
+    text-decoration: underline;
+}
+.nav0{
+    margin:10px;
+    
+}
+.center{
+    margin-top:6em;
+    display: flex;
+    padding:10px;
+    flex-direction:column;
+    align-items: center;
+}
+#advanced{
+    margin-top:auto;
+}
+.center0{
+    margin:10px;
+}
+form{
+    text-align: center;
+    width: 500px;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 12px 20px 9px 40px;
+}
+#advanced input[type=text] {
+    border-radius: 4px;
+}
+input[type=text]:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+input[type=text]:focus{
+    outline:none;
+}
+#advanced input[type=text]:focus{
+    border:1px solid #4d90fe;
+}
+input[type="submit"]{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+#advanceButton{
+    background-color: #4d90fe;
+    color: #fff;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+#advanceButton:hover{
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+input[type="submit"]:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+.footer{
+    color: rgb(94, 90, 90);
+    padding-top: 10px;
+    padding-left:20px;
+    background-color: #f2f2f2;
+    border: 2px solid #e4e4e4;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left: 0px;
+    height: 60px;
+    
+}
